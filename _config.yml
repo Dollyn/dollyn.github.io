@@ -10,19 +10,19 @@ url: https://dollyn.github.io
 # baseurl: '/jekyll-clean-dark'
 
 share:
-  facebook: true
+  #facebook: true
   twitter: true
   gplus: true
   linkedin: true
-  pinterest: true
-  email: true
+  #pinterest: true
+  #email: true
 
 social:
   github: dollyn
   stackoverflow: ''
-  linkedin:
-  instagram: ''
-  lastfm: ''
+  #linkedin:
+  #instagram: ''
+  #lastfm: ''
   rss: feed.xml
 
 # Google Analytics key, leave blank to ignore
