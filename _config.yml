@@ -11,6 +11,8 @@ url: https://dollyn.github.io
 
 timezone: Asia/Shanghai
 
+future: true
+
 share:
   #facebook: true
   twitter: true
