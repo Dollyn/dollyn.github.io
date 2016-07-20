@@ -8,7 +8,7 @@ layout: page
       {{ post.title }}
     </a>
   </h3>
-{{ post.excerpt }}
+
   <div class="post-meta">
   <div class="post-time">
     <i class="fa fa-calendar"></i>
@@ -19,6 +19,8 @@ layout: page
     <li><a href="{{site.baseurl | prepend:site.url}}/tag/{{ tag }}">{{ tag }}</a></li>
     {% endfor %}
   </ul>
+
+  {{ post.excerpt }}
 </div>
 
   <div class="post-descr">
