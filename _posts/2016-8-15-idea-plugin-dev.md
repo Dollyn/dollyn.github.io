@@ -1,6 +1,6 @@
 ---
 title: 2016-8-15-idea-plugin-dev
-tags: 新建,模板,小书匠
+tags: IDEA,Plugin,小书匠
 grammar_cjkRuby: true
 ---
 
