@@ -26,7 +26,8 @@ git clone --depth 1 git://git.jetbrains.org/idea/community.git idea
 # 1. 新建一个插件项目
 
 File --> New --> Project
-打开新建项目向导，选择Intellij Platform Plugin：
+打开新建项目向导，选择Intellij Platform Plugin：![enter description here][1]
+
 
 ![New Project](images/posts/2016-08-15-idea-plugin-dev/new_project_1.png)
  
@@ -42,3 +43,6 @@ File --> New --> Project
  然后进入下一步，输入项目的名字和路径：
 
  
+
+
+  [1]: ./images/1471265127194.jpg "1471265127194.jpg"
