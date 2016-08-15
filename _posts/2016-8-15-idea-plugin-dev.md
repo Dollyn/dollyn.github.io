@@ -28,7 +28,8 @@ git clone --depth 1 git://git.jetbrains.org/idea/community.git idea
 File --> New --> Project
 打开新建项目向导，选择Intellij Platform Plugin：![enter description here][1]
 
-![images]
+
+![New Project](images/ava.jpg)
 
 初次运行的话，这里的SDK列表是空的，所以需要手动新建一个。 点击右侧的New...按钮：
 
