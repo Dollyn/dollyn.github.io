@@ -22,15 +22,15 @@ idea社区版是一个开源免费的版本，相对于商业版，少了对JEE�
 File --> New --> Project
 打开新建项目向导，选择Intellij Platform Plugin：
 
-![](/images/2016-08-15-idea-plugin-dev/new_project_1.png)
+![](/images/2016-08-15-idea-plugin-dev/new_proj_sdk.png)
  
 初次运行的话，这里的SDK列表是空的，所以需要手动新建一个。 点击右侧的New...按钮：
 
-![](/images/2016-08-15-idea-plugin-dev/new_sdk_location.png)
+![](/images/2016-08-15-idea-plugin-dev/new_sdk_select_dir.png)
 
 选择IDEA的安装目录， 然后会弹出要求你选择一个JDK，
 
-![](/images/2016-08-15-idea-plugin-dev/new_sdk_java_sdk.png)
+![][1]
 
 最后，如果前面从git中下载了源码， 在这里添加上源码的路径：
  
@@ -38,7 +38,7 @@ File --> New --> Project
 
  然后进入下一步，输入项目的名字和路径：
  
-![](/images/2016-08-15-idea-plugin-dev/new_project_name.png)
+![][2]
  
  到此为止一个插件项目就创建成功了。
  
@@ -46,7 +46,13 @@ File --> New --> Project
  # 2. 添加菜单
  
  向IDEA添加菜单或工具栏按钮是通过Action系统来实现的，具体参考http://www.jetbrains.org/intellij/sdk/docs/basics/action_system.html。
- 
- 
- 
- 
+ IDEA的插件开发工具提供了一个简便的方法，方便创建Action，在某个Java包上右键-->New-->Action, 会弹出Action创建向导：
+
+![New Action Wizard][3]
+
+
+
+
+  [1]: ./images/1472058702309.jpg "1472058702309.jpg"
+  [2]: ./images/1472058779744.jpg "1472058779744.jpg"
+  [3]: ./images/1472061446962.jpg "New Action Wizard.jpg"
