@@ -1,3 +1,12 @@
+---
+layout: post
+title: "Intellij IDEA 插件开发教程"
+date: 2016-08-15 16:25:06
+tags: IDEA Plugin
+description: 
+toc: true
+---
+
 # 0. 准备工作
 
 ## 下载Intellij IDEA 社区版
@@ -53,3 +62,6 @@ File --> New --> Project
 
 
 
+  [1]: ./images/1472058702309.jpg "1472058702309.jpg"
+  [2]: ./images/1472058779744.jpg "1472058779744.jpg"
+  [3]: ./images/1472061446962.jpg "New Action Wizard.jpg"
