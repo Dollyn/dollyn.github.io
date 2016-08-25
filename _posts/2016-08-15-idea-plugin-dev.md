@@ -52,7 +52,7 @@ File --> New --> Project
  到此为止一个插件项目就创建成功了。
  
  
- # 2. 添加菜单
+# 2. 添加菜单
  
  向IDEA添加菜单或工具栏按钮是通过Action系统来实现的，具体参考http://www.jetbrains.org/intellij/sdk/docs/basics/action_system.html。
  IDEA的插件开发工具提供了一个简便的方法，方便创建Action，在某个Java包上右键-->New-->Action, 会弹出Action创建向导：
