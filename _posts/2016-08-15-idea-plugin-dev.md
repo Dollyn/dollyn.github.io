@@ -62,6 +62,6 @@ File --> New --> Project
 
 
 
-  [1]: ./images/1472058702309.jpg "1472058702309.jpg"
-  [2]: ./images/1472058779744.jpg "1472058779744.jpg"
-  [3]: ./images/1472061446962.jpg "New Action Wizard.jpg"
+  [1]: /images/1472058702309.jpg "1472058702309.jpg"
+  [2]: /images/1472058779744.jpg "1472058779744.jpg"
+  [3]: /images/1472061446962.jpg "New Action Wizard.jpg"
