@@ -1,37 +1,31 @@
 # Jekyll configuration
 
 name: Dollyn
-description: Software Developer
+description: dollyn's blog
 
 # Url is currently only used only for the RSS feed in feed.xml
-url: https://dollyn.github.io
+url: http://dollyn.github.io
+#url: http://localhost:4000
 
-# For a project page here should be a project name. Otherwise (for user's/organizaion's page leave it empty)
-# baseurl: '/jekyll-clean-dark'
-
-timezone: Asia/Shanghai
-
-future: true
+# For a project page here should be a project name. Otherwise (for user's/organization's page leave it empty)
+baseurl:
 
 share:
-  #facebook: true
+  facebook: true
   twitter: true
   gplus: true
   linkedin: true
-  #pinterest: true
-  #email: true
+  pinterest: true
+  email: true
 
 social:
-  github: dollyn
-  stackoverflow: ''
-  #linkedin:
-  #instagram: ''
-  #lastfm: ''
+  github: dollyn.github.com
+  stackoverflow: 'https://stackoverflow.com/users/422389/dollyn'
   rss: feed.xml
 
 # Google Analytics key, leave blank to ignore
 google_analytics_key:
-# Yandex metrika (https://metrica.yandex.com/) leave blank to ignore or put true to use
+# Yandex metrica (https://metrica.yandex.com/) leave blank to ignore or put true to use
 yandex_metrica:
 
 
@@ -39,14 +33,14 @@ yandex_metrica:
 # setting below must also be true. Individual posts can override 'comments' to
 # disable on a post-by-post basis
 disqus: dollynsun
-comments: false
+comments: true
 
-permalink: /:year/:month/:day/:title
+permalink: /:year/:month/:title
 
 # Enable for using pages, more details are here: http://jekyllrb.com/docs/pagination/
 paginate: 10
 
-#highlighter: rouge
+highlighter: rouge
 
 markdown: kramdown
 kramdown:
@@ -54,3 +48,9 @@ kramdown:
   hard_wrap: true
 
 exclude: ['README.md', 'LICENSE']
+
+plugins:
+  - jemoji
+  - jekyll-redirect-from
+  - jekyll-sitemap
+  - jekyll-feed
